@@ -75,6 +75,7 @@ export const sideBarData = [
         {label: "Debian", link: "/docs/setup/build-collector-as-debian"},
         {label: "RPM", link: "/docs/setup/build-collector-as-rpm"},
         {label: "MS-Windows", link: "/docs/setup/build-collector-on-windows"},
+        {label: "Container Insights Prometheus", link: "/docs/setup/container-insights/prometheus"},
       ],
       link: "/docs/null"
     }
