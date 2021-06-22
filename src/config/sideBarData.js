@@ -56,6 +56,7 @@ export const sideBarData = [
         {label: "Prometheus (AMP)", link: "/docs/getting-started/prometheus-remote-write-exporter"},
         {label: "Prometheus Configurations", link: "/docs/getting-started/advanced-prometheus-remote-write-configurations"},
         {label: "CloudWatch Metrics", link: "/docs/getting-started/cloudwatch-metrics"},
+        {label: "CloudWatch Container Insights", link: "/docs/getting-started/container-insights"},
         {label: "X-Ray", link: "/docs/getting-started/x-ray"},
       ],
       link: "/docs/null"
@@ -75,7 +76,6 @@ export const sideBarData = [
         {label: "Debian", link: "/docs/setup/build-collector-as-debian"},
         {label: "RPM", link: "/docs/setup/build-collector-as-rpm"},
         {label: "MS-Windows", link: "/docs/setup/build-collector-on-windows"},
-        {label: "Container Insights Prometheus", link: "/docs/setup/container-insights/prometheus"},
       ],
       link: "/docs/null"
     }
