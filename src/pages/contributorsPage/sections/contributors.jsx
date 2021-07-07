@@ -32,18 +32,7 @@ const Contributors = (props) => {
       classes.imgFluid
   )
 
-  const data = useStaticQuery(graphql`
-    query MyQuery {
-      allGitHubContributor {
-        nodes {
-            name
-            avatarUrl
-        }
-      }
-    }
-  `)
-
-  addCollaborators(data.allGitHubContributor.nodes)
+  addCollaborators([])
 
   return (
     <div className={classes.section}>
